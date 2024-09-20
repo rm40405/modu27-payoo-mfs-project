@@ -3,9 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>add money payoo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <h1>Welcome to home page</h1>
+    <main class="flex justify-center">
+      <div class="mockup-phone">
+        <div class="camera"></div>
+        <div class="display">
+          <div class="artboard artboard-demo phone-2">
+            <!-- avaiblablr balance -->
+            <div>
+              <div class="stats shadow">
+                <div class="stat">
+                  <div id="balance" class="stat-value">45,400</div>
+                  <div class="stat-desc">Available balance</div>
+                </div>
+              </div>
+            </div>
+            <!-- driver add -->
+            <div class="divider"></div>
+            <!-- add money or case out button-->
+            <div>
+              <button class="btn btn-lg">Add Money</button>
+              <button class="btn btn-lg">Case Out</button>
+            </div>
+            <!-- add money from start-->
+            <div class="divider"></div>
+            <div
+              class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mt-5 mx-6"
+            >
+              <form class="card-body">
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text"> Add Amount</span>
+                  </label>
+                  <input
+                    id="add-amount"
+                    type="text"
+                    placeholder="Amount"
+                    class="input input-bordered"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text">Your Pin</span>
+                  </label>
+                  <input
+                    id="add-pin"
+                    type="text"
+                    placeholder="pin"
+                    class="input input-bordered"
+                    required
+                  />
+                </div>
+                <div id="add-money-btn" class="form-control mt-6">
+                  <button class="btn btn-primary">Add Money</button>
+                </div>
+              </form>
+            </div>
+            <!-- add money from end -->
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/homePage.js"></script>
   </body>
 </html>

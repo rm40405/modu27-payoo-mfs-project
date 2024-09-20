@@ -21,7 +21,7 @@
             <div>
               <div class="stats shadow">
                 <div class="stat">
-                  <div id="balance" class="stat-value">45,400</div>
+                  <div id="balance" class="stat-value">45400</div>
                   <div class="stat-desc">Available balance</div>
                 </div>
               </div>
@@ -36,7 +36,7 @@
             <!-- add money from start-->
             <div class="divider"></div>
             <div
-              class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mt-5 mx-6"
+              class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mt-5 mx-6"
             >
               <form class="card-body">
                 <div class="form-control">
@@ -69,10 +69,47 @@
               </form>
             </div>
             <!-- add money from end -->
+            <!-- case out from start -->
+            <div class="divider"></div>
+            <div
+              class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mt-5 mx-6"
+            >
+              <form class="card-body">
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text"> Add Amount</span>
+                  </label>
+                  <input
+                    id="amount-case-out"
+                    type="text"
+                    placeholder="Amount"
+                    class="input input-bordered"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text">Your Pin</span>
+                  </label>
+                  <input
+                    id="add-pin-case-out"
+                    type="text"
+                    placeholder="pin"
+                    class="input input-bordered"
+                    required
+                  />
+                </div>
+                <div id="case-out-btn" class="form-control mt-6">
+                  <button class="btn btn-primary">Case Out</button>
+                </div>
+              </form>
+            </div>
+            <!-- case out from end -->
           </div>
         </div>
       </div>
     </main>
-    <script src="./js/homePage.js"></script>
+    <!-- <script src="./js/homePage.js"></script> -->
+    <script src="./js/caseOut.js"></script>
   </body>
 </html>

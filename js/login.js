@@ -13,7 +13,7 @@ document.getElementById('login-button').addEventListener('click', function(event
     if(mobileNumber ==='5' && pinNumber ==='1234'){
         console.log('you are logged in');
         // window location href home page;
-        window.location.href = './homePage.html';
+        
     }
     else{
         alert('wrong number logged in');

@@ -30,13 +30,16 @@
             <div class="divider"></div>
             <!-- add money or case out button-->
             <div>
-              <button class="btn btn-lg">Add Money</button>
-              <button class="btn btn-lg">Case Out</button>
+              <button id="add-money-from-btn" class="btn btn-lg">
+                Add Money
+              </button>
+              <button id="case-from-btn" class="btn btn-lg">Case Out</button>
             </div>
             <!-- add money from start-->
             <div class="divider"></div>
             <div
-              class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mt-5 mx-6"
+              id="add-money-from"
+              class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mt-5 mx-6"
             >
               <form class="card-body">
                 <div class="form-control">
@@ -72,7 +75,8 @@
             <!-- case out from start -->
             <div class="divider"></div>
             <div
-              class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mt-5 mx-6"
+              id="case-from"
+              class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mt-5 mx-6"
             >
               <form class="card-body">
                 <div class="form-control">
@@ -109,7 +113,9 @@
         </div>
       </div>
     </main>
-    <!-- <script src="./js/homePage.js"></script> -->
+    <script src="./js/homePage.js"></script>
     <script src="./js/caseOut.js"></script>
+    <script src="./js/features.js"></script>
+    <script src="./js/login.js"></script>
   </body>
 </html>

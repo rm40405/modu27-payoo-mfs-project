@@ -1,6 +1,7 @@
 // get the event handler for 
 // step 1:
 
+
 document.getElementById('add-money-btn').addEventListener('click',function(event){
     // prevent form submission
     // step 2:
